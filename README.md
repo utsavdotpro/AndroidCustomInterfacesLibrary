@@ -24,6 +24,7 @@ Custom interface classes with instantiate, initialize, listen, load functions. W
 
 - Activity
 - BundleBuilder
+- Callback
 - DialogFragment
 - Fragment
 - JSONBuilder
