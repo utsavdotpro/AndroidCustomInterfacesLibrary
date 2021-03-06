@@ -1,5 +1,5 @@
 [![](https://jitpack.io/v/u-barnwal/AndroidCustomInterfacesLibrary.svg)](https://jitpack.io/#u-barnwal/AndroidCustomInterfacesLibrary)
-# MaterialEditText
+# Android Custom (Interfaces) Library
 Collection of improved and easy-to-implement versions of common Android classes.
 
 Custom interface classes with instantiate, initialize, listen, load functions. Works with ViewBinding
@@ -23,9 +23,9 @@ Custom interface classes with instantiate, initialize, listen, load functions. W
 ## Available classes
 
 - Activity
+- BundleBuilder
 - DialogFragment
 - Fragment
-- BundleBuilder
 - JSONBuilder
 
 ## Important
