@@ -22,12 +22,17 @@ Custom interface classes with instantiate, initialize, listen, load functions. W
 
 ## Available classes
 
-- Activity
-- BundleBuilder
-- Callback
-- DialogFragment
-- Fragment
-- JSONBuilder
+- [Activity](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/Activity.java)
+- [BundleBuilder](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/BundleBuilder.java)
+- [Callback](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/Callback.java)
+- [DialogFragment](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/DialogFragment.java)
+- [Fragment](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/Fragment.java)
+- [JSONBuilder](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/JSONBuilder.java)
+- [ListFilter](https://github.com/u-barnwal/AndroidCustomInterfacesLibrary/blob/main/custom/src/main/java/com/isolpro/custom/ListFilter.java)
+
+## Information
+The code for all the above classes mostly self-explanatory, if you go through them once you'll get the gist.  
+If you want to use them and want a proper documentation, feel free to write me at hi@utsavbarnwal.me :)
 
 ## Important
 **Experimental build for internal usages only!**
