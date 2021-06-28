@@ -20,6 +20,15 @@ public class BundleBuilder {
     return get(new Bundle());
   }
 
+  public static void useValue(Bundle bundle, String key, Callback<Object> onValue) {
+    if (bundle == null) return;
+
+    if (!bundle.containsKey(key)) return;
+
+    if (onValue != null)
+      onValue.exec(bundle.get(key));
+  }
+
   public BundleBuilder putString(String key, String value) {
     bundle.putString(key, value);
     return this;
@@ -62,5 +71,4 @@ public class BundleBuilder {
   public Bundle build() {
     return bundle;
   }
-
 }
