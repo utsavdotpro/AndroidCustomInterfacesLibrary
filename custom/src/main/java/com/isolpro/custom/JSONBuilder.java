@@ -40,7 +40,7 @@ public class JSONBuilder {
   }
 
   public JSONBuilder put(String key, String value) {
-    return putHandled(key, value, true);
+    return put(key, value, true);
   }
 
   public JSONBuilder put(String key, int value, boolean toPut) {
@@ -48,7 +48,7 @@ public class JSONBuilder {
   }
 
   public JSONBuilder put(String key, int value) {
-    return putHandled(key, value, true);
+    return put(key, value, true);
   }
 
   public JSONBuilder put(String key, float value, boolean toPut) {
@@ -56,7 +56,7 @@ public class JSONBuilder {
   }
 
   public JSONBuilder put(String key, float value) {
-    return putHandled(key, value, true);
+    return put(key, value, true);
   }
 
   public JSONBuilder put(String key, boolean value, boolean toPut) {
@@ -64,7 +64,15 @@ public class JSONBuilder {
   }
 
   public JSONBuilder put(String key, boolean value) {
-    return putHandled(key, value, true);
+    return put(key, value, true);
+  }
+
+  public JSONBuilder put(String key, JSONObject jsonObject, boolean toPut) {
+    return putHandled(key, jsonObject, toPut);
+  }
+
+  public JSONBuilder put(String key, JSONObject jsonObject) {
+    return put(key, jsonObject, true);
   }
 
   public JSONObject build() {
