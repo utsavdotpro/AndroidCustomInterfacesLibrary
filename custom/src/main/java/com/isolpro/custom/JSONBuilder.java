@@ -2,6 +2,7 @@ package com.isolpro.custom;
 
 import android.util.Log;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -73,6 +74,14 @@ public class JSONBuilder {
 
   public JSONBuilder put(String key, JSONObject jsonObject) {
     return put(key, jsonObject, true);
+  }
+
+  public JSONBuilder put(String key, JSONArray jsonArray, boolean toPut) {
+    return putHandled(key, jsonArray, toPut);
+  }
+
+  public JSONBuilder put(String key, JSONArray jsonArray) {
+    return put(key, jsonArray, true);
   }
 
   public JSONObject build() {
