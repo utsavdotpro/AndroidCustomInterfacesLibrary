@@ -42,6 +42,10 @@ public abstract class ListFilter<T> {
       onFilterChanged.exec(filteredItems);
   }
 
+  public List<T> getItems() {
+    return items;
+  }
+
   public List<T> getFilteredItems() {
     return filteredItems;
   }
