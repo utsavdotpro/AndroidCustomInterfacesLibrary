@@ -32,7 +32,7 @@ Custom interface classes with instantiate, initialize, listen, load functions. W
 
 ## Information
 The code for all the above classes mostly self-explanatory, if you go through them once you'll get the gist.  
-If you want to use them and want a proper documentation, feel free to write me at hi@utsavbarnwal.me :)
+If you want to use them and want a proper documentation, feel free to write me at me@utsav.pro :)
 
 ## Important
 **Experimental build for internal usages only!**
